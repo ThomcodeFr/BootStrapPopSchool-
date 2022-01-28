@@ -63,59 +63,113 @@
       </nav>
     </header>
     <main>
-            <!-- Carousel -->
-    <link href="css/carousel.css" rel="stylesheet">
+      <!-- Carousel -->
+      <link href="css/carousel.css" rel="stylesheet" />
 
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
 
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-      <img src="assets/img/img_domenico-loia.jpg" class="d-block w-100" alt="website design">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Votre site web.</h1>
-            <p>Je réalise votre site web en HTML, CSS, JavaScript, Bootstrap</p>
-            <p><a class="btn btn-lg btn-primary" href="">Contactez-moi</a></p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/img_domenico-loia.jpg"
+              class="d-block w-100"
+              alt="Image représentant le dev front-end"
+            />
+            <!--  Source de l'image : Photo by Domenico Loia on Unsplash -->
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Développement Front-End</h1>
+                <p>
+                  Je réalise votre site web en HTML, CSS, JavaScript & Bootstrap
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-dark" href="">Contactez-moi</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/img_lautaro-andreani.jpg"
+              class="d-block w-100"
+              alt="Image représentant le dev back-end"
+            />
+            <!--  Source de l'image : Photo by Lautaro Andreani on Unsplash -->
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Développement Back-end</h1>
+                <p>
+                  Je m'occupe également de la partie serveur : PHP, MySql &
+                  MariaDB
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-light" href="#">Contactez-moi</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/img_balazs-ketyi.jpg"
+              class="d-block w-100"
+              alt="Image représentant le dev mobile"
+            />
+            <!--  Source de l'image : Photo by Balazs Ketyi on Unsplash -->
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>Développement Mobile</h1>
+                <p>
+                  Vous utilisez Android ou Apple ? Je maîtrise Swift, Java &
+                  Kotnin
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-dark" href="#">Contactez-moi</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
     </main>
     <!-- Scripts -->
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
